@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en-PH">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top Up Genshin Impact</title>
+    <link rel="stylesheet" href="stle.css">
+    <link rel="stylesheet" 
+      ref="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" 
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+<body dir="ltr">
+  <div class="container">
+    <header>
+        <div class="navbar">
+        <a href="index.html"><img src="img/logo.png" class="logo"></a><p class="line">Unlock your gaming potential with our premium gaming credits.</p>
+          <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;" class="signup" type="button">Sign Up</button>
+        </div>
+      </header>
+
+      <label class="bars">
+        <input type="checkbox">
+        <div class="toggle">
+          <div class="top_line common"></div>
+          <div class="middle_line common"></div>
+          <div class="bottom_line common"></div>
+        </div>
+
+        <div class="menubar">
+          <ul>
+            <li><p>Sign up to GameCredz now!</p></li>
+            <li><button onclick="document.getElementById('id01').style.display='block'" class="signup" type="button">Sign Up for Free</button></li>
+            <li><button onclick="document.getElementById('id02').style.display='block'" style="width:auto;" class="signin_button" type="button">Sign in</button></li>  
+          </ul>
+      </div>
+    </label>
+
+    <div class="topup-content">
+      <div class="topup-container">
+            <section class="product-details">
+              <div class="product-banner">
+                <img src="img/genshin-banner.jpg" alt="">
+              </div>
+              <div class="product-description">
+                <h2>Genshin Impact</h2>
+              </div>
+            </section>
+            <section class="topup-form">
+              <form action="">
+              <div class="bg-form">
+                <h2  class="form-section__circle">
+                  <span class="form-section__number">1</span>
+                  <span class="form-section__name" required>Enter UID</span>
+                </h2>
+                <div class="inputInfo">
+                  <div class="userID">
+                    <div class="userinput">
+                      <div class="form-field-wrapper userid user-input-fields inline-element">
+                        <span class="provider">
+                          <div class="input-container">
+                            <div>
+                              <div class="input-block">
+                                <label for="userId" class="form-label"></label>
+                                <div class="input-holder userid form-input font-normal text-center">
+                                  <input type="tel" placeholder="Enter UID" id="userId" name="user_0" model autocomplete="off" class="userid form-input font-normal text-center"  required >
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </span>
+                      </div>
+                      <div class="form-field-wrapper userid user-input-fields inline-element">
+                        <span class="provider">
+                        <div class="input-container">
+                       
+                           
+                              
+                            <div class="dropdown-input">
+                              <label for="fruits">Select a Server</label>
+                              <input list="servers" id="server" name="server" />
+                              <datalist id="servers">
+                                <option value="Asia">
+                                <option value="America">
+                                <option value="TW, HK, MO">                             
+                              </datalist>
+                            </div>
+                              
+                            
+                          
+                        </div>
+                        </span>
+                      </div>
+                     <p class="instruction">To find your UID, login to your account in the application. Click on the profile button at the top left corner. You will find your UID under your avatar. Please enter your UID here. Alternatively, you can also look at the bottom right hand corner, you can find your UID here</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </form>
+            </section>
+
+            <section class="topup-form">
+              <h2 class="form-section__circle">
+                <span class="form-section__number">2</span>
+                <span class="form-section__name">Select Amount</span>
+              </h2>
+
+              <div class="amount-list">
+
+                <div data-copy="price1"  class="amount-category">
+                  <div onclick="changeColor(this)" class="form-section__denom-btn form-section__with-image">
+                    <div class="price">
+                      <div class="diamond-img">
+                        <img src="img/Item_Genesis_Crystal.jpg" alt="" class="dia-img">
+                      </div>
+                      <div class="price-section">
+                        <span >330 Genesis Crystals</span>
+                      </div>
+                      <p class="starting-price">
+                        <div class="starting-price-from" >From</div>
+                        <span class="starting-price-value" id="price1">₱225</span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div data-copy="price2" class="amount-category">
+                  <div onclick="changeColor(this)" class="form-section__denom-btn form-section__with-image">
+                    <div class="price">
+                      <div class="diamond-img">
+                        <img src="img/Item_Genesis_Crystal.jpg" alt="" class="dia-img">
+                      </div>
+                      <div class="price-section">
+                        <span>1090 Genesis Crystals</span>
+                      </div>
+                      <p class="starting-price">
+                        <div class="starting-price-from">From</div>
+                        <span class="starting-price-value" id="price2">₱675</span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div data-copy="price3" class="amount-category">
+                  <div onclick="changeColor(this)" class="form-section__denom-btn form-section__with-image">
+                    <div class="price">
+                      <div class="diamond-img">
+                        <img src="img/Item_Genesis_Crystal.jpg" alt="" class="dia-img">
+                      </div>
+                      <div class="price-section">
+                        <span>2240 Genesis Crystals</span>
+                      </div>
+                      <p class="starting-price">
+                        <div class="starting-price-from">From</div>
+                        <span class="starting-price-value" id="price3">₱1,341</span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div data-copy="price4"  class="amount-category">
+                  <div onclick="changeColor(this)" class="form-section__denom-btn form-section__with-image">
+                    <div class="price">
+                      <div class="diamond-img">
+                        <img src="img/Item_Genesis_Crystal.jpg" alt="" class="dia-img">
+                      </div>
+                      <div class="price-section">
+                        <span>3880 Genesis Crystals</span>
+                      </div>
+                      <p class="starting-price">
+                        <div class="starting-price-from">From</div>
+                        <span class="starting-price-value" id="price4">₱2,241</span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div data-copy="price5" class="amount-category">
+                  <div onclick="changeColor(this)" class="form-section__denom-btn form-section__with-image">
+                    <div class="price">
+                      <div class="diamond-img">
+                        <img src="img/Item_Genesis_Crystal.jpg" alt="" class="dia-img">
+                      </div>
+                      <div class="price-section">
+                        <span>8080</span>
+                      </div>
+                      <p class="starting-price">
+                        <div class="starting-price-from">From</div>
+                        <span class="starting-price-value" id="price5">₱4,491</span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                
+              </div>
+            </section>
+
+            <section class="topup-form">
+              <h2 class="form-section__circle">
+                <span class="form-section__number">3</span>
+                <span class="form-section__name">Payment</span>
+              </h2>
+
+              <ul  class="payment-section">
+                <li onclick="changeBG(this)" data-copy="targetprice" class="payment-container">
+                  <a class="payment-channel">
+                    <div class="payment-logo">
+                      <figure class="logo-wrapper">
+                        <img src="img/GCash-Logo.png" alt="GCash" class="PM-logo">
+                        <span class="targetprice" id="targetprice"></span>
+                      </figure>
+                    </div>
+                  </a>
+                </li>
+                <li data-copy="targetprice2"  class="payment-container">
+                  <a onclick="changeBG(this)" class="payment-channel">
+                    <div class="payment-logo">
+                      <figure class="logo-wrapper">
+                        <img src="img/PayMaya_Logo.png" alt="GCash" class="PM-logo2">
+                        <span class="targetprice2" id="targetprice2"></span>
+                      </figure>
+                    </div>
+                  </a>
+                </li>
+              </ul>
+            </section>
+            
+            <div class="buy">
+              <div class="checkout">
+                <span class="target-span"></span>
+              </div>
+              <button type="button" class="buyBtn  btn-default btn-single" id="buyButton" onclick="buyProduct()">Buy now</button>
+            </div>
+              
+            <div id="popup" class="popup">
+              <div class="popup-content">
+                <h2>Successfully Purchased!</h2>
+                <p>Thank you for your purchase.</p>
+                <button onclick="closePopup()">Close</button>
+              </div>
+            </div>
+        </div>
+      </div>
+
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+      const clickableDivs = document.querySelectorAll('.amount-category');
+      const pasteableSpan = document.querySelector('.targetprice');
+      const pasteableSpan2 = document.querySelector('.targetprice2');
+      const pasteableSpan3 = document.querySelector('.target-span')
+      let activeSpanId = null;
+
+      clickableDivs.forEach(function(div) {
+        div.addEventListener('click', function() {
+          const spanId = div.dataset.copy;
+          const span = document.getElementById(spanId);
+
+          const range = document.createRange();
+          range.selectNode(span);
+          window.getSelection().removeAllRanges();
+          window.getSelection().addRange(range);
+          document.execCommand('copy');
+          window.getSelection().removeAllRanges();
+
+          pasteableSpan.textContent = span.textContent;
+          pasteableSpan2.textContent = span.textContent;
+          pasteableSpan3.textContent = span.textContent;
+          paymentElement.style.backgroundColor = '';
+          activeSpanId = spanId;
+
+          
+        });
+      });
+
+    });
+      
+    
+    var currentElement = null;
+
+      function changeColor(element) {
+        
+        if (currentElement !== null) {
+          // Reset the background color of the previously clicked element
+          currentElement.style.backgroundColor = '';
+        }
+       
+        // Change the background color of the clicked element
+        element.style.backgroundColor = '#34255c';
+
+        // Update the currentElement to the newly clicked element
+        currentElement = element;
+      }
+  
+
+
+    var paymentElement = null;
+    const pasteSpan = document.querySelector('.target-span');
+      function changeBG(element) {
+        if (paymentElement !== null) {
+          // Reset the background color of the previously clicked element
+          paymentElement.style.backgroundColor = '';
+        } 
+
+        // Change the background color of the clicked element
+        element.style.backgroundColor = '#34255c';
+
+        // Update the paymentElement to the newly clicked element
+        paymentElement = element;
+      }
+     
+
+      function buyProduct() {
+  // Add your logic here to process the purchase
+  // For demonstration purposes, let's assume the purchase is successful
+
+  // Show the popup
+  var popup = document.getElementById("popup");
+  popup.style.display = "block";
+}
+
+function closePopup() {
+  // Hide the popup
+  var popup = document.getElementById("popup");
+  popup.style.display = "none";
+
+  window.location.href = "index.html";
+}
+    </script>
+</body>
+</html>
